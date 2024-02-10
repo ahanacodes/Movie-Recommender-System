@@ -28,9 +28,7 @@ The movie recommender system is designed to analyze a dataset of movies, includi
 **Persistence:**
 - The final part of the notebook involves persisting the processed DataFrame, the movie dictionary, and the similarity matrix using the `pickle` library. This enables the recommender system to quickly load preprocessed data and similarity scores without the need to recompute them, enhancing the efficiency of the recommendation process.
 
-In conclusion, the movie recommender system showcases a comprehensive approach to recommending movies by leveraging machine learning techniques and data processing to analyze movie metadata and identify similar movies based on user preferences.
-
-#Regarding aap.py file
+### Regarding aap.py file
 
 The Python file you've uploaded is a script for a web-based movie recommender system built with Streamlit, a popular library for creating data applications. This script appears to offer a user-friendly interface for users to get movie recommendations along with movie posters. Here's a detailed breakdown of its structure and functionality:
 
@@ -55,3 +53,5 @@ This script implements a movie recommender system that provides users with movie
 ### Conclusion
 
 This Streamlit application demonstrates an effective use of Python for building interactive data applications. By combining the simplicity of Streamlit with the power of machine learning and data processing, it offers an engaging way for users to discover movies similar to their tastes. The inclusion of movie posters fetched from an external API further enriches the user experience, making the recommendations more tangible and visually appealing.
+
+In conclusion, the movie recommender system showcases a comprehensive approach to recommending movies by leveraging machine learning techniques and data processing to analyze movie metadata and identify similar movies based on user preferences.
