@@ -8,7 +8,7 @@ The movie recommender system is designed to analyze a dataset of movies, includi
 
 **Data Acquisition and Preprocessing:**
 - The system begins by loading two datasets: `tmdb_5000_movies.csv` and `tmdb_5000_credits.csv`, which contain detailed information about movies and their credits, respectively.
-- Here is alink to download dataset from Kaggle: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+- Here is a link to download dataset from Kaggle: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 - It then merges these datasets on the movie title to consolidate all relevant information into a single DataFrame.
 - A series of data preprocessing steps are undertaken, including the removal of missing values and duplicates, ensuring the data is clean and ready for analysis.
 
